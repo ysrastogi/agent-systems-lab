@@ -1,0 +1,7 @@
+{
+  "name": "Research Assistant",
+  "task": "Explain vector DB tradeoffs",
+  "input": "Write a report covering HNSW vs. IVF-PQ vs. Flat indexes for vector retrieval. Include tradeoffs in latency, memory, and recall.",
+  "metrics": ["factual accuracy", "depth", "hallucination rate"],
+  "golden_output": "The report should describe HNSW as high-performance for low-latency searches but memory-intensive. IVF-PQ should be described as memory-efficient but at the cost of some recall Loss. Flat should be described as the most accurate but also the slowest."
+}
