@@ -1,0 +1,7 @@
+{
+  "name": "Code Debugger",
+  "task": "Fix a recursive function with depth limit",
+  "input": "The following function fails for large input. Fix it: \n\ndef fib(n):\n  if n == 0: return 0\n  if n == 1: return 1\n  return fib(n-1) + fib(n-2)",
+  "metrics": ["pass/fail", "latency", "token usage"],
+  "golden_output": "The function should use memoization or iterative approach to handle large inputs."
+}
