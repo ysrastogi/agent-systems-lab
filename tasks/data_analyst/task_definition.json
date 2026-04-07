@@ -1,0 +1,7 @@
+{
+  "name": "Data Analyst",
+  "task": "Extract insights from CSV data",
+  "input": "Given this list of sales: [('A', 100), ('B', 200), ('A', 300)], what is the average sale price for product A?",
+  "metrics": ["correctness", "latency", "hallucination rate"],
+  "golden_output": "The average sale price for product A is 200."
+}
