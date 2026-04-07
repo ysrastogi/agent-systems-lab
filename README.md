@@ -17,11 +17,12 @@ The objective of this lab is to move beyond "vibes-based" development by impleme
 
 We are systematically exploring the following architectures. Each has its own directory in `architectures/`:
 Future Architectures:
-    - [ ] ReAct
-    - [ ] Planner-Executor
-    - [ ] Reflection/Critic
-    - [ ] Memory-Augmented
-    - [ ] Swarm
+
+- [ ] ReAct
+- [ ] Planner-Executor
+- [ ] Reflection/Critic
+- [ ] Memory-Augmented
+- [ ] Swarm
 
 
 ## 🔬 Benchmark Tasks
