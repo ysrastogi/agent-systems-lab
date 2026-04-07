@@ -1,0 +1,52 @@
+{
+    "run_id": "run_001.json",
+    "timestamp": "2026-04-07T09:21:44.973169",
+    "task": "research_assistant",
+    "architecture": "react",
+    "input": "Write a report covering HNSW vs. IVF-PQ vs. Flat indexes for vector retrieval. Include tradeoffs in latency, memory, and recall.",
+    "expected": "The report should describe HNSW as high-performance for low-latency searches but memory-intensive. IVF-PQ should be described as memory-efficient but at the cost of some recall Loss. Flat should be described as the most accurate but also the slowest.",
+    "result": {
+        "response": "HNSW offers O(log N) search speed but uses significant RAM. IVF-PQ reduces memory but hurts recall slightly. Flat is accurate but O(N) complexity.",
+        "steps": [
+            {
+                "thought": "I need to understand the task input.",
+                "action": "none",
+                "result": "Understanding complete."
+            },
+            {
+                "thought": "I will search for vector DB tradeoffs.",
+                "action": "search_db",
+                "result": "HNSW is fast but RAM heavy. IVF is scaled but less accurate."
+            },
+            {
+                "thought": "I will synthesize the report.",
+                "action": "synthesize",
+                "result": "Synthesized report."
+            }
+        ],
+        "token_usage": 1500,
+        "latency": 2.5
+    },
+    "metrics": {
+        "latency": 0.0,
+        "token_usage": 1500,
+        "success": false
+    },
+    "steps": [
+        {
+            "thought": "I need to understand the task input.",
+            "action": "none",
+            "result": "Understanding complete."
+        },
+        {
+            "thought": "I will search for vector DB tradeoffs.",
+            "action": "search_db",
+            "result": "HNSW is fast but RAM heavy. IVF is scaled but less accurate."
+        },
+        {
+            "thought": "I will synthesize the report.",
+            "action": "synthesize",
+            "result": "Synthesized report."
+        }
+    ]
+}
